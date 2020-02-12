@@ -1,25 +1,22 @@
-header {
+#header {
     background-color: gray;
     height: 100px;
 }
-footer {
-    width: 100%;
+
+body {
+    background-color: rgb(213, 213, 213);
+}
+
+#middle {
+    background-color: white;
+    height: 500px;
+    width: 75%;
+    margin: auto;
+}
+
+#footer {
+    background-color: #222222;
+    margin: auto;
+    width: 75%;
     height: 100px;
-    background-color: black;
-    clear: both;
 }
-
-.leftDiv {
-    background-color: lightgray;
-    width: 20%;
-    height: 600px;
-    float: left;
-}
-
-.rightDiv {
-    background-color: lightgray;
-    width: 20%;
-    height: 600px;
-    float: right;
-}
-
